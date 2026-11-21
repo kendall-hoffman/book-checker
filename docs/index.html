@@ -53,7 +53,7 @@ main{max-width:1100px;margin:0 auto;padding:16px 20px 60px;display:grid;grid-tem
 
 <script>
 const FILTERS = [["all","All"],["available","Available now"],["wait","Waitlist"],["none","Not owned"]];
-let DATA = [], filter = "all";
+let DATA = [], filter = "available";
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
@@ -91,7 +91,7 @@ function render(){
     const img = b.image ? `<img class="cover" loading="lazy" src="${esc(b.image)}" alt="">` : `<div class="cover"></div>`;
     const title = b.url ? `<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a>` : esc(b.title);
     return `<div class="card">${img}<div class="info"><h3>${title}</h3><div class="author">${esc(b.author)}</div>${tags || '<span class="none">Not at the selected libraries</span>'}</div></div>`;
-  }).join("") : `<div class="empty">No books match.</div>`;
+  }).join("") : `<div class="empty">${filter === "available" ? "Nothing on your list is available right now. Try Waitlist to see the shortest waits." : "No books match."}</div>`;
   renderChips();
 }
 function renderChips(){
@@ -103,15 +103,17 @@ function renderChips(){
 
 async function init(){
   try {
-    const r = await fetch("data.json", {cache:"no-store"});
+    const r = await fetch("data.json?t=" + Date.now(), {cache:"no-store"});
+    if (!r.ok) throw new Error("data.json returned HTTP " + r.status + " (file not found on the site yet)");
     const j = await r.json();
+    if (!j.books) throw new Error("data.json has no books list");
     DATA = j.books;
     $("meta").textContent = `${DATA.length} books · updated ${j.updated}`;
     const names = [...new Set(DATA.flatMap(b => Object.keys(b.libs)))];
     $("lib").innerHTML = `<option value="">All libraries</option>` + names.map(n => `<option>${esc(n)}</option>`).join("");
     render();
   } catch (e) {
-    $("meta").textContent = "No data yet. Run the GitHub workflow once, then refresh.";
+    $("meta").textContent = "No data yet: " + e.message + ". Run the GitHub workflow, wait a minute, then refresh.";
   }
 }
 $("chips").addEventListener("click", e => { const k = e.target.dataset.k; if (k){ filter = k; render(); }});
