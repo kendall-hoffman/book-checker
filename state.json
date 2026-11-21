@@ -1,0 +1,2709 @@
+{
+ "fruit fly|josh silver": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{E74963C4-96B2-4304-8BF1-DB96A0947EF8}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 349,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{E74963C4-96B2-4304-8BF1-DB96A0947EF8}IMG400.JPG",
+   "text": "547 holds, ~349 days (ebook)"
+  }
+ },
+ "phoebe bermans gonna lose it|brooke averick": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 8,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{E40FA98E-B6BD-4F67-99D1-D6D8498495A4}IMG400.JPG",
+   "text": "63 holds, ~8 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 108,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{E40FA98E-B6BD-4F67-99D1-D6D8498495A4}IMG400.JPG",
+   "text": "230 holds, ~108 days (ebook)"
+  }
+ },
+ "are you mad at me|meg josephson": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 37,
+   "cover": "https://img2.od-cdn.com/ImageType-400/5054-1/{55CCE42A-508E-4276-B811-5B338905D27C}IMG400.JPG",
+   "text": "41 holds, ~37 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 152,
+   "cover": "https://img2.od-cdn.com/ImageType-400/5054-1/{55CCE42A-508E-4276-B811-5B338905D27C}IMG400.JPG",
+   "text": "75 holds, ~152 days (ebook)"
+  }
+ },
+ "tennis lessons|susannah dickey": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0211-1/7F9/2C6/22/{7F92C622-8673-416F-9D15-5A0A40DF71DE}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "great big beautiful life|emily henry": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/{6E1C724C-E8FB-4F59-AC26-F91BE8B3B3F1}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 129,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/{6E1C724C-E8FB-4F59-AC26-F91BE8B3B3F1}IMG400.JPG",
+   "text": "229 holds, ~129 days (ebook)"
+  }
+ },
+ "loves labour|stephen grosz": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "vera or faith|gary shteyngart": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{34893ADC-2904-4F0B-BFCF-C8B98C1FA705}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{34893ADC-2904-4F0B-BFCF-C8B98C1FA705}IMG400.JPG",
+   "text": "0 holds, ~14 days (ebook)"
+  }
+ },
+ "funny feelings|tarah dewitt": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1219-1/{A939617F-5A0D-41EA-A6F0-39A12DAED7BC}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 9,
+   "cover": "https://img2.od-cdn.com/ImageType-400/2390-1/{960A8AE3-D5E6-47B0-8B34-07F7FAE015C1}IMG400.JPG",
+   "text": "2 holds, ~9 days (audiobook)"
+  }
+ },
+ "braiding sweetgrass|robin wall kimmerer": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 3,
+   "cover": "https://img3.od-cdn.com/ImageType-400/1219-1/DAF/C2E/9C/{DAFC2E9C-D834-4673-8589-58615421F54D}Img400.jpg",
+   "text": "8 holds, ~3 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 12,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1219-1/DAF/C2E/9C/{DAFC2E9C-D834-4673-8589-58615421F54D}Img400.jpg",
+   "text": "7 holds, ~12 days (ebook)"
+  }
+ },
+ "hat trick|chelsea curto": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "the wall of winnipeg and me|mariana zapata": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/7552-1/{510F6F48-3A04-44B3-926C-054D9DD24E3E}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 5,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{90BC6DBE-579D-4EFE-8A2F-0FF5092B2956}IMG400.JPG",
+   "text": "0 holds, ~5 days (audiobook)"
+  }
+ },
+ "the names|florence knapp": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 8,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{745206EC-A8F7-40DA-9E0E-E895AF6E6B01}IMG400.JPG",
+   "text": "28 holds, ~8 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 159,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{745206EC-A8F7-40DA-9E0E-E895AF6E6B01}IMG400.JPG",
+   "text": "293 holds, ~159 days (ebook)"
+  }
+ },
+ "the god of the woods|liz moore": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/{38CB9D00-D653-4873-8F57-622746D36E3F}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 3,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{38CB9D00-D653-4873-8F57-622746D36E3F}IMG400.JPG",
+   "text": "13 holds, ~3 days (ebook)"
+  }
+ },
+ "wild for you|kristen proby": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/2343-1/{C6D3CFBC-1756-4FD4-B447-1AF8AE806868}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/2343-1/{C6D3CFBC-1756-4FD4-B447-1AF8AE806868}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "birthday girl|penelope douglas": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/7399-1/{CA62FB05-2F0E-4644-A227-7C9D3A21AEC9}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "my friends|fredrik backman": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0439-1/{319A49A3-9EC8-4451-8222-B16B64E2872B}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 207,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0439-1/{319A49A3-9EC8-4451-8222-B16B64E2872B}IMG400.JPG",
+   "text": "647 holds, ~207 days (ebook)"
+  }
+ },
+ "a guardian and a thief|megha majumdar": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{13FDE0B5-2628-4590-8167-39D9ECAE39EF}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 1,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{13FDE0B5-2628-4590-8167-39D9ECAE39EF}IMG400.JPG",
+   "text": "0 holds, ~1 days (audiobook)"
+  }
+ },
+ "careless people|sarah wynnwilliams": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1493-1/{67E99F63-1846-4747-AEBC-13E0194D8522}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 2,
+   "cover": "https://img3.od-cdn.com/ImageType-400/1493-1/{67E99F63-1846-4747-AEBC-13E0194D8522}IMG400.JPG",
+   "text": "1 holds, ~2 days (ebook)"
+  }
+ },
+ "martyr|kaveh akbar": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 4,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{C8EEE1E2-1222-4F7E-A17B-82A6FCA64180}IMG400.JPG",
+   "text": "17 holds, ~4 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 199,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{C8EEE1E2-1222-4F7E-A17B-82A6FCA64180}IMG400.JPG",
+   "text": "141 holds, ~199 days (audiobook)"
+  }
+ },
+ "loved one|aisha muharrar": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 1,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/{FA70EDEC-0E2B-46FB-9DF2-AC0F456ACF80}IMG400.JPG",
+   "text": "0 holds, ~1 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 27,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{FA70EDEC-0E2B-46FB-9DF2-AC0F456ACF80}IMG400.JPG",
+   "text": "14 holds, ~27 days (ebook)"
+  }
+ },
+ "107 days|kamala harris": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/5054-1/{90FADA33-1A4D-4AE1-AC48-109BCE4277B9}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/5054-1/{90FADA33-1A4D-4AE1-AC48-109BCE4277B9}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "homo deus|yuval noah harari": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/E7B/B66/A7/{E7BB66A7-CCB4-4D20-B576-AD1D73948056}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/E7B/B66/A7/{E7BB66A7-CCB4-4D20-B576-AD1D73948056}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "be ready when the luck happens|ina garten": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1191-1/{97B5562B-1A11-402B-A3A5-39C4CF700B56}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 238,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1191-1/{97B5562B-1A11-402B-A3A5-39C4CF700B56}IMG400.JPG",
+   "text": "33 holds, ~238 days (ebook)"
+  }
+ },
+ "the examined life|stephen grosz": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0044-1/E48/4CE/5C/{E484CE5C-2610-4B8C-A9B5-C6E857A72FB8}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "deep end|ali hazelwood": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/{6C661B68-A6BE-4F86-8AFB-2FB8914039BF}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 118,
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/{6C661B68-A6BE-4F86-8AFB-2FB8914039BF}IMG400.JPG",
+   "text": "225 holds, ~118 days (audiobook)"
+  }
+ },
+ "a court of thorns and roses|sarah j maas": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 1,
+   "cover": "https://img1.od-cdn.com/ImageType-400/2183-1/{BE5659D5-C1F4-4101-A6B4-02F37497F9EE}IMG400.JPG",
+   "text": "19 holds, ~1 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 4,
+   "cover": "https://img3.od-cdn.com/ImageType-400/2183-1/{BE5659D5-C1F4-4101-A6B4-02F37497F9EE}IMG400.JPG",
+   "text": "38 holds, ~4 days (ebook)"
+  }
+ },
+ "how to be more tree|liz marvin": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "tell me everything|elizabeth strout": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{B86D18B4-E646-478A-A7D3-1B93B0694241}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 193,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{B86D18B4-E646-478A-A7D3-1B93B0694241}IMG400.JPG",
+   "text": "54 holds, ~193 days (ebook)"
+  }
+ },
+ "the confidence of wildflowers|micalea smeltzer": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img1.od-cdn.com/ImageType-400/7168-1/{567974B3-BD41-42A1-9F2D-191CCB8D2985}IMG400.JPG",
+   "text": "0 holds, ~14 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 392,
+   "cover": "https://img1.od-cdn.com/ImageType-400/16561-1/{79739ACE-ABD2-4A9B-A0A1-68526D6B390A}IMG400.JPG",
+   "text": "27 holds, ~392 days (audiobook)"
+  }
+ },
+ "out on a limb|hannah bonamyoung": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 8,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{4FD037F4-B679-4B69-9770-A11C8393103E}IMG400.JPG",
+   "text": "3 holds, ~8 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{4FD037F4-B679-4B69-9770-A11C8393103E}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "a place without you|jewel e ann": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1219-1/B42/719/7F/{B427197F-CCDC-45D4-B675-F3361A9AA1B4}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "the husbands|holly gramazio": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 4,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{B4AEB598-2CDC-4A5F-9ED9-05B899108EC4}IMG400.JPG",
+   "text": "4 holds, ~4 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 80,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{B4AEB598-2CDC-4A5F-9ED9-05B899108EC4}IMG400.JPG",
+   "text": "39 holds, ~80 days (ebook)"
+  }
+ },
+ "source code|bill gates": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{CE483AEA-41C6-4E29-8919-14A65202FBA9}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{CE483AEA-41C6-4E29-8919-14A65202FBA9}IMG400.JPG",
+   "text": "0 holds, ~14 days (ebook)"
+  }
+ },
+ "just a hat|shanah khubiar": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "the vegetarian|han kang": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{3C36DBC4-1DBE-4D85-9E5D-0A3D54457A4F}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 21,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{3C36DBC4-1DBE-4D85-9E5D-0A3D54457A4F}IMG400.JPG",
+   "text": "12 holds, ~21 days (ebook)"
+  }
+ },
+ "aggregated discontent|harron walker": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1191-1/{82AA5C7D-941B-40B4-BB94-59C0F8446975}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/{82AA5C7D-941B-40B4-BB94-59C0F8446975}IMG400.JPG",
+   "text": "0 holds, ~14 days (ebook)"
+  }
+ },
+ "the anthropocene reviewed|john green": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 19,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/{6A70B3C1-3AB8-47CF-8F5C-152996B9AEE6}IMG400.JPG",
+   "text": "32 holds, ~19 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 172,
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/{6A70B3C1-3AB8-47CF-8F5C-152996B9AEE6}IMG400.JPG",
+   "text": "48 holds, ~172 days (ebook)"
+  }
+ },
+ "the tattooist of auschwitz|heather morris": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{C018789F-7BC0-4EF8-9075-2113D24A9199}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 1,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/{C018789F-7BC0-4EF8-9075-2113D24A9199}IMG400.JPG",
+   "text": "0 holds, ~1 days (audiobook)"
+  }
+ },
+ "a lethal obsession|robert s wistrich": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/FD0/078/28/{FD007828-9278-44F6-A697-D3DDE0D4BD26}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "demon copperhead|barbara kingsolver": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{DC2C2BB8-EF2A-4015-8C1C-F0E7573FED75}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 7,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{DC2C2BB8-EF2A-4015-8C1C-F0E7573FED75}IMG400.JPG",
+   "text": "36 holds, ~7 days (audiobook)"
+  }
+ },
+ "history on trial|deborah e lipstadt": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "escaping the build trap|melissa perri": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/2858-1/{381C14F6-E0A4-4E1C-BCFA-71F5A2EBC3AF}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "conscious loving|gay hendricks": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1219-1/A2D/E78/AB/{A2DE78AB-82E2-4D48-8516-725531F1CFA4}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "caught up|liz tomforde": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/7399-1/{47359A3D-E3A7-4377-95E1-A31B0AB05C57}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "in a jam|kate canterbary": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/7635-1/{2D75C680-9697-4A68-92AD-55AEC49A0D32}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "fortuity|jewel e ann": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/2343-1/{9C3E0A9F-8A28-418A-A29E-ABBD735F2362}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "icebreaker|hannah grace": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0439-1/{FDB16BCE-B338-472C-9194-46BDF19B7310}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 233,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0439-1/{FDB16BCE-B338-472C-9194-46BDF19B7310}IMG400.JPG",
+   "text": "165 holds, ~233 days (ebook)"
+  }
+ },
+ "the silent patient|alex michaelides": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 1,
+   "cover": "https://img2.od-cdn.com/ImageType-400/2390-1/{1B06F42D-2233-4600-B207-7D298AA61772}IMG400.JPG",
+   "text": "4 holds, ~1 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 5,
+   "cover": "https://img1.od-cdn.com/ImageType-400/2390-1/{1B06F42D-2233-4600-B207-7D298AA61772}IMG400.JPG",
+   "text": "28 holds, ~5 days (audiobook)"
+  }
+ },
+ "hook line and sinker|tessa bailey": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 24,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/51D/E48/10/{51DE4810-CAA9-4F98-96CE-421AB3D6D4BD}Img400.jpg",
+   "text": "4 holds, ~24 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 3,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/51D/E48/10/{51DE4810-CAA9-4F98-96CE-421AB3D6D4BD}Img400.jpg",
+   "text": "4 holds, ~3 days (audiobook)"
+  }
+ },
+ "part of your world|abby jimenez": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/6251-1/{FEA68211-057F-460E-9147-536C6BB3114F}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 318,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0017-1/{10624B8B-50C6-43E4-BDB4-CC9C3BFC5A1F}IMG400.JPG",
+   "text": "226 holds, ~318 days (audiobook)"
+  }
+ },
+ "intermezzo|sally rooney": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/2390-1/{1FAAEEE5-25A7-4CB9-A65A-423FAD8ED207}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/2390-1/{1FAAEEE5-25A7-4CB9-A65A-423FAD8ED207}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "funny story|emily henry": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{A2A9BABA-C565-474A-BDD3-1D02A8E13213}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 209,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{A2A9BABA-C565-474A-BDD3-1D02A8E13213}IMG400.JPG",
+   "text": "237 holds, ~209 days (ebook)"
+  }
+ },
+ "how to do nothing|jenny odell": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/CF2/50E/8F/{CF250E8F-F876-43E8-9FE5-B87401EFBD69}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 2,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/CF2/50E/8F/{CF250E8F-F876-43E8-9FE5-B87401EFBD69}Img400.jpg",
+   "text": "0 holds, ~2 days (ebook)"
+  }
+ },
+ "come and get it|kiley reid": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/{9281585E-CB4A-4B2E-B2B2-1FDF5430A251}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{9281585E-CB4A-4B2E-B2B2-1FDF5430A251}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "lilac girls|martha hall kelly": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{AB571E68-93EA-4560-B9CA-AED82BDD8183}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{AB571E68-93EA-4560-B9CA-AED82BDD8183}IMG400.JPG",
+   "text": "Available now (ebook)"
+  }
+ },
+ "enigma variations|andr aciman": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "woke antisemitism|david l bernstein": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "big magic|elizabeth gilbert": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/BD1/A43/C1/{BD1A43C1-4384-47B2-AB85-787DB9B1AECD}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/BD1/A43/C1/{BD1A43C1-4384-47B2-AB85-787DB9B1AECD}Img400.jpg",
+   "text": "Available now (ebook)"
+  }
+ },
+ "my time will come|ian manuel": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/6A8/F23/77/{6A8F2377-B409-431C-9C34-462DEDC92990}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/6A8/F23/77/{6A8F2377-B409-431C-9C34-462DEDC92990}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "the berry pickers|amanda peters": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{A7BF31B5-5ED8-4E08-8E58-3E09B489F992}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{A7BF31B5-5ED8-4E08-8E58-3E09B489F992}IMG400.JPG",
+   "text": "Available now (ebook)"
+  }
+ },
+ "the employees|olga ravn": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 54,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0044-1/{B1CD5437-BEF6-41CF-83A0-7EAAEB75B23B}IMG400.JPG",
+   "text": "49 holds, ~54 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 318,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0044-1/{B1CD5437-BEF6-41CF-83A0-7EAAEB75B23B}IMG400.JPG",
+   "text": "67 holds, ~318 days (ebook)"
+  }
+ },
+ "two women walk into a bar|cheryl strayed": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "tom lake|ann patchett": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{C05BD9E1-AF78-41E9-B052-989622313CD9}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{C05BD9E1-AF78-41E9-B052-989622313CD9}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "mad honey|jodi picoult": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{4F81F80B-7E80-4820-9F7A-1E951038EAA1}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 208,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{4F81F80B-7E80-4820-9F7A-1E951038EAA1}IMG400.JPG",
+   "text": "73 holds, ~208 days (ebook)"
+  }
+ },
+ "dress your family in corduroy and denim|david sedaris": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0887-1/39E/804/5F/{39E8045F-F67E-4130-A955-42F3FD4E3412}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0887-1/39E/804/5F/{39E8045F-F67E-4130-A955-42F3FD4E3412}Img400.jpg",
+   "text": "Available now (ebook)"
+  }
+ },
+ "smoke gets in your eyes other lessons from the crematory|caitlin doughty": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "know my name|chanel miller": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/82F/19A/21/{82F19A21-4A42-44FA-8C80-F57D0780586B}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 110,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1191-1/82F/19A/21/{82F19A21-4A42-44FA-8C80-F57D0780586B}Img400.jpg",
+   "text": "85 holds, ~110 days (audiobook)"
+  }
+ },
+ "educated|tara westover": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/53C/E19/F3/{53CE19F3-B6BB-4E58-A388-2AA38813BC91}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 1,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/53C/E19/F3/{53CE19F3-B6BB-4E58-A388-2AA38813BC91}Img400.jpg",
+   "text": "1 holds, ~1 days (ebook)"
+  }
+ },
+ "the house on mango street|sandra cisneros": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 2,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1191-1/{31965D18-C444-42FA-B4E8-44DE7E4D3CCA}IMG400.JPG",
+   "text": "1 holds, ~2 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 147,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/{31965D18-C444-42FA-B4E8-44DE7E4D3CCA}IMG400.JPG",
+   "text": "146 holds, ~147 days (audiobook)"
+  }
+ },
+ "punching the air|ibi zoboi": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{F88A3C9D-AE6F-425E-A3B7-AE4AD804C69C}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/{F88A3C9D-AE6F-425E-A3B7-AE4AD804C69C}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "happy place|emily henry": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/{B240C268-9B32-4D56-A59D-DB07DF769865}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 245,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/{B240C268-9B32-4D56-A59D-DB07DF769865}IMG400.JPG",
+   "text": "139 holds, ~245 days (ebook)"
+  }
+ },
+ "yellowface|rf kuang": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/15106-1/{5B303E87-2350-459F-9C10-E24C71C266EF}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "daisy jones the six|taylor jenkins reid": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{F5F6C00F-623F-4738-B668-26EA950858D1}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 12,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{F5F6C00F-623F-4738-B668-26EA950858D1}IMG400.JPG",
+   "text": "17 holds, ~12 days (audiobook)"
+  }
+ },
+ "zionism|michael stanislawski": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "how to fight antisemitism|bari weiss": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/7CB/1E5/EF/{7CB1E5EF-022F-4766-877C-92BE86D27FA1}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/7CB/1E5/EF/{7CB1E5EF-022F-4766-877C-92BE86D27FA1}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "israelophobia|jake wallis simons": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "everyday hate|dave rich": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "bluets|maggie nelson": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 4,
+   "cover": "https://img2.od-cdn.com/ImageType-400/6852-1/EE9/53F/48/{EE953F48-FEE7-4125-A9E0-4F732343204A}Img400.jpg",
+   "text": "2 holds, ~4 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "night sky with exit wounds|ocean vuong": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/6852-1/{D9DDAC4D-7E80-49E0-A9BC-523312B03416}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/6852-1/{D9DDAC4D-7E80-49E0-A9BC-523312B03416}IMG400.JPG",
+   "text": "Available now (ebook)"
+  }
+ },
+ "bright young women|jessica knoll": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 42,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0439-1/{A35EFD8A-26ED-49DC-BF17-EEE386287E5E}IMG400.JPG",
+   "text": "26 holds, ~42 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 238,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0439-1/{A35EFD8A-26ED-49DC-BF17-EEE386287E5E}IMG400.JPG",
+   "text": "16 holds, ~238 days (ebook)"
+  }
+ },
+ "the covenant of water|abraham verghese": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/6852-1/{877BEA09-D192-47F5-8BC2-E7A7EB637F38}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/6852-1/{877BEA09-D192-47F5-8BC2-E7A7EB637F38}IMG400.JPG",
+   "text": "Available now (ebook)"
+  }
+ },
+ "the sun does shine|anthony ray hinton": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1493-1/D2D/ED1/93/{D2DED193-2BC0-471E-92EF-630A33A996A8}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/2390-1/296/E66/AB/{296E66AB-145E-4363-A4BC-0998D8D19153}Img400.jpg",
+   "text": "Available now (ebook)"
+  }
+ },
+ "somebodys daughter|ashley c ford": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1493-1/{E68BF5B3-BE92-4D6D-AA6F-BA27067D9771}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1493-1/{E68BF5B3-BE92-4D6D-AA6F-BA27067D9771}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "it was an ugly couch anyway|elizabeth passarella": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0354-1/{07631382-8169-4DDD-9B0F-EF9BEF561F93}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0354-1/{07631382-8169-4DDD-9B0F-EF9BEF561F93}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "a convenient hatred|phyllis goldstein": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "humankind|rutger bregman": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 7,
+   "cover": "https://img3.od-cdn.com/ImageType-400/4575-1/{3ABB0F40-23C5-4B39-935B-33143933FF15}IMG400.JPG",
+   "text": "1 holds, ~7 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 56,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0017-1/1E4/C5C/6B/{1E4C5C6B-FA69-469D-B0AD-BF977D933189}Img400.jpg",
+   "text": "3 holds, ~56 days (ebook)"
+  }
+ },
+ "the invisible life of addie larue|ve schwab": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 1,
+   "cover": "https://img2.od-cdn.com/ImageType-400/2390-1/{6498F392-5398-43F4-9172-62039734569E}IMG400.JPG",
+   "text": "2 holds, ~1 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 2,
+   "cover": "https://img3.od-cdn.com/ImageType-400/2390-1/{6498F392-5398-43F4-9172-62039734569E}IMG400.JPG",
+   "text": "10 holds, ~2 days (audiobook)"
+  }
+ },
+ "lord of the flies|william golding": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/{20D10A58-A649-46BC-8870-6549D3DC0E8A}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 20,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/{20D10A58-A649-46BC-8870-6549D3DC0E8A}IMG400.JPG",
+   "text": "6 holds, ~20 days (ebook)"
+  }
+ },
+ "everything is illuminated|jonathan safran foer": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{5A55E87F-636B-478F-9A05-2A58158D5798}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{5A55E87F-636B-478F-9A05-2A58158D5798}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "extremely loud incredibly close|jonathan safran foer": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "excellent sheep|william deresiewicz": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1219-1/3A1/AF0/85/{3A1AF085-18A9-40BC-BCD8-08265C06D2F6}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "beautiful world where are you|sally rooney": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1493-1/{2B066AF0-23DB-471C-9D52-70B56102B623}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/2390-1/{1FE14A6A-8F61-41ED-AEF6-3455B495A740}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "anxious people|fredrik backman": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 101,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0439-1/{FF9306CF-A01D-475B-8130-830B9C38F1F9}IMG400.JPG",
+   "text": "85 holds, ~101 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 271,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0439-1/{FF9306CF-A01D-475B-8130-830B9C38F1F9}IMG400.JPG",
+   "text": "482 holds, ~271 days (audiobook)"
+  }
+ },
+ "tools for grassroots activists|nora gallagher": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "barbarian days|william finnegan": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/033/4EC/D1/{0334ECD1-DB1B-499E-B214-1A152439D2C4}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/033/4EC/D1/{0334ECD1-DB1B-499E-B214-1A152439D2C4}Img400.jpg",
+   "text": "1 holds, ~14 days (ebook)"
+  }
+ },
+ "strangers to ourselves|rachel aviv": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/2390-1/{9772C7B0-73BB-4877-ADDE-ACA7BBD144CC}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/2390-1/{9772C7B0-73BB-4877-ADDE-ACA7BBD144CC}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "the furrows|namwali serpell": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{75929494-B2E8-4AD2-A344-786D9CE4F2B0}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{75929494-B2E8-4AD2-A344-786D9CE4F2B0}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "shmutz|felicia berliner": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 5,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0439-1/{6D28D09E-6D35-4045-BDD5-7AAC62E70624}IMG400.JPG",
+   "text": "0 holds, ~5 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/5054-1/{EE502B94-D2B3-488E-9111-E71E082BDB67}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "life lived wild|rick ridgeway": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/6852-1/{C54C21AB-941C-4A68-850D-6BA625CA28D6}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/6852-1/{C54C21AB-941C-4A68-850D-6BA625CA28D6}IMG400.JPG",
+   "text": "Available now (ebook)"
+  }
+ },
+ "catch22|joseph heller": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/6645-1/2AB/D29/64/{2ABD2964-2199-4904-A3B8-A73B68D588A8}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 51,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0439-1/{685A4451-99D1-4E35-8C85-4AF97C029EB7}IMG400.JPG",
+   "text": "28 holds, ~51 days (audiobook)"
+  }
+ },
+ "people love dead jews|dara horn": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 1,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0044-1/A95/A4D/4A/{A95A4D4A-BD79-4DCB-AEFC-17663F8F2B56}Img400.jpg",
+   "text": "0 holds, ~1 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 5,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0044-1/A95/A4D/4A/{A95A4D4A-BD79-4DCB-AEFC-17663F8F2B56}Img400.jpg",
+   "text": "0 holds, ~5 days (audiobook)"
+  }
+ },
+ "swimming in the dark|tomasz jedrowski": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 25,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{B3C680E5-BF93-4992-ABE2-3D0C128FD3C4}IMG400.JPG",
+   "text": "13 holds, ~25 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 28,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/{B3C680E5-BF93-4992-ABE2-3D0C128FD3C4}IMG400.JPG",
+   "text": "3 holds, ~28 days (audiobook)"
+  }
+ },
+ "a little life|hanya yanagihara": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/091/AAA/B9/{091AAAB9-71FB-4BD4-A93D-C1877C75F382}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 259,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/091/AAA/B9/{091AAAB9-71FB-4BD4-A93D-C1877C75F382}Img400.jpg",
+   "text": "258 holds, ~259 days (audiobook)"
+  }
+ },
+ "finding me|viola davis": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 42,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/{1F0AC6E0-502B-41BE-BD39-A776CD557F41}IMG400.JPG",
+   "text": "11 holds, ~42 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{1F0AC6E0-502B-41BE-BD39-A776CD557F41}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "our wives under the sea|julia armfield": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 10,
+   "cover": "https://img2.od-cdn.com/ImageType-400/2343-1/{C618DB1E-05B4-4F8C-8F5B-DFC1097B1B47}IMG400.JPG",
+   "text": "5 holds, ~10 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 21,
+   "cover": "https://img1.od-cdn.com/ImageType-400/2390-1/{83FE356D-179E-48A5-9FE1-9B196887E018}IMG400.JPG",
+   "text": "2 holds, ~21 days (audiobook)"
+  }
+ },
+ "carrie soto is back|taylor jenkins reid": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/6251-1/{1FD498CC-4747-4A2F-B18E-9302B6C5CA13}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 103,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{664FDA49-5E2D-4290-81D4-E743BDFF7324}IMG400.JPG",
+   "text": "65 holds, ~103 days (ebook)"
+  }
+ },
+ "notes on an execution|danya kukafka": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{8AE58391-47F5-4EEE-A3C5-5A90E87C7EE2}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{8AE58391-47F5-4EEE-A3C5-5A90E87C7EE2}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "to paradise|hanya yanagihara": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{149A2CE4-F67F-4B59-8D5A-98DD208336A2}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{149A2CE4-F67F-4B59-8D5A-98DD208336A2}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "it happened one summer|tessa bailey": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/2AB/CE1/AB/{2ABCE1AB-8E39-4908-972E-A0CFC212C7E8}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 1,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/2AB/CE1/AB/{2ABCE1AB-8E39-4908-972E-A0CFC212C7E8}Img400.jpg",
+   "text": "0 holds, ~1 days (audiobook)"
+  }
+ },
+ "sea of tranquility|emily st john mandel": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 2,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{996A854D-8B01-4D06-A5E8-A91E751F6FA1}IMG400.JPG",
+   "text": "0 holds, ~2 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 51,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{996A854D-8B01-4D06-A5E8-A91E751F6FA1}IMG400.JPG",
+   "text": "17 holds, ~51 days (audiobook)"
+  }
+ },
+ "my dark vanessa|kate elizabeth russell": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/01F/FCE/93/{01FFCE93-AAC6-4674-B14C-938282AF8E5C}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 5,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/01F/FCE/93/{01FFCE93-AAC6-4674-B14C-938282AF8E5C}Img400.jpg",
+   "text": "2 holds, ~5 days (audiobook)"
+  }
+ },
+ "beach read|emily henry": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/1B7/1C2/B5/{1B71C2B5-A3B0-4A63-A35C-2C26B5D74E1A}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 101,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/1B7/1C2/B5/{1B71C2B5-A3B0-4A63-A35C-2C26B5D74E1A}Img400.jpg",
+   "text": "157 holds, ~101 days (ebook)"
+  }
+ },
+ "im glad my mom died|jennette mccurdy": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/5518-1/{6DE894DA-607E-450F-83BA-1293066D56C4}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 105,
+   "cover": "https://img2.od-cdn.com/ImageType-400/5054-1/{8A6C7499-FC93-4ACB-A72E-FF3A85DED1A6}IMG400.JPG",
+   "text": "29 holds, ~105 days (ebook)"
+  }
+ },
+ "lessons in chemistry|bonnie garmus": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{66227E65-A2C4-42E1-883A-43B8272BBE13}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 291,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{66227E65-A2C4-42E1-883A-43B8272BBE13}IMG400.JPG",
+   "text": "165 holds, ~291 days (audiobook)"
+  }
+ },
+ "the end of policing|alex s vitale": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/E9E/515/CA/{E9E515CA-CA91-4A75-A0D1-6309A29A2E06}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/E9E/515/CA/{E9E515CA-CA91-4A75-A0D1-6309A29A2E06}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "men who hate women|laura bates": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0174-1/{10AC4ABF-8787-4FC5-993A-CC2441195DC0}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0174-1/{10AC4ABF-8787-4FC5-993A-CC2441195DC0}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "no one is talking about this|patricia lockwood": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/8FC/4C6/D4/{8FC4C6D4-8976-4494-A83C-7148D3BC69DB}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 3,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/8FC/4C6/D4/{8FC4C6D4-8976-4494-A83C-7148D3BC69DB}Img400.jpg",
+   "text": "0 holds, ~3 days (audiobook)"
+  }
+ },
+ "wish you were here|jodi picoult": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 1,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{5E00FDED-85D2-4035-A1AD-E86520AD6087}IMG400.JPG",
+   "text": "1 holds, ~1 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 4,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{5E00FDED-85D2-4035-A1AD-E86520AD6087}IMG400.JPG",
+   "text": "7 holds, ~4 days (audiobook)"
+  }
+ },
+ "tomorrow and tomorrow and tomorrow|gabrielle zevin": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{17FF1132-F408-4ADE-AF88-910809DA47EE}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 177,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{17FF1132-F408-4ADE-AF88-910809DA47EE}IMG400.JPG",
+   "text": "138 holds, ~177 days (ebook)"
+  }
+ },
+ "ugly love|colleen hoover": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0439-1/{770E8B92-26D3-46C1-8A1B-6DC44F73F434}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0439-1/{770E8B92-26D3-46C1-8A1B-6DC44F73F434}IMG400.JPG",
+   "text": "Available now (ebook)"
+  }
+ },
+ "it ends with us|colleen hoover": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0439-1/{02538BFD-3E57-409F-B1D3-1B698003AD85}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 147,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0439-1/{02538BFD-3E57-409F-B1D3-1B698003AD85}IMG400.JPG",
+   "text": "41 holds, ~147 days (audiobook)"
+  }
+ },
+ "why we sleep|matthew walker": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 2,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0439-1/{4D0E4657-6E48-4418-8A10-058A66C7E144}IMG400.JPG",
+   "text": "2 holds, ~2 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 61,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0439-1/{4D0E4657-6E48-4418-8A10-058A66C7E144}IMG400.JPG",
+   "text": "12 holds, ~61 days (ebook)"
+  }
+ },
+ "punch me up to the gods|brian broome": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/{AD5788C4-D5CE-4993-9E2D-FA0C433593C8}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{AD5788C4-D5CE-4993-9E2D-FA0C433593C8}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "you made a fool of death with your beauty|akwaeke emezi": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 4,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0439-1/{C7934638-9F68-4DB4-AC52-8BCFE69136BD}IMG400.JPG",
+   "text": "0 holds, ~4 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 42,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0439-1/{C7934638-9F68-4DB4-AC52-8BCFE69136BD}IMG400.JPG",
+   "text": "2 holds, ~42 days (ebook)"
+  }
+ },
+ "such a fun age|kiley reid": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/931/DA7/EC/{931DA7EC-61E4-4F20-9FA0-8DB900362782}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/931/DA7/EC/{931DA7EC-61E4-4F20-9FA0-8DB900362782}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "convenience store woman|sayaka murata": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/6852-1/039/FF4/16/{039FF416-A369-4665-8A8F-01EEC2D51FC4}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 34,
+   "cover": "https://img1.od-cdn.com/ImageType-400/6852-1/039/FF4/16/{039FF416-A369-4665-8A8F-01EEC2D51FC4}Img400.jpg",
+   "text": "11 holds, ~34 days (ebook)"
+  }
+ },
+ "before the coffee gets cold|toshikazu kawaguchi": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1071-1/{E74D438A-33F8-4C9D-A3DB-A6340153006F}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 63,
+   "cover": "https://img3.od-cdn.com/ImageType-400/1071-1/{E74D438A-33F8-4C9D-A3DB-A6340153006F}IMG400.JPG",
+   "text": "71 holds, ~63 days (audiobook)"
+  }
+ },
+ "malibu rising|taylor jenkins reid": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{4E4E46F7-C690-4105-967D-9ED83D66CB6C}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 97,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{4E4E46F7-C690-4105-967D-9ED83D66CB6C}IMG400.JPG",
+   "text": "102 holds, ~97 days (audiobook)"
+  }
+ },
+ "small pleasures|clare chambers": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/D1E/A8F/13/{D1EA8F13-0A31-4D01-850B-39D8DF31D547}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{2D0900DF-A05D-4D23-BD39-F891C542BF92}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "the beekeeper of aleppo|christy lefteri": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/85E/5B7/6B/{85E5B76B-8E23-4D2F-92F7-67CF6441F384}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/85E/5B7/6B/{85E5B76B-8E23-4D2F-92F7-67CF6441F384}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "the singularity is near|ray kurzweil": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/DCB/D69/8B/{DCBD698B-D532-4FEC-ABEF-9DCEF88DFF4A}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "happier hour|cassie holmes": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 178,
+   "cover": "https://img3.od-cdn.com/ImageType-400/5054-1/{D48ED4B6-FD56-4F7B-B8C5-D783FC308755}IMG400.JPG",
+   "text": "37 holds, ~178 days (audiobook)"
+  }
+ },
+ "sorry sorry sorry|marjorie ingall": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0439-1/{5067F7AB-2ED0-41A7-B0B9-EF20AA2CA3DF}IMG400.JPG",
+   "text": "Available now (ebook)"
+  }
+ },
+ "body am i|moheb costandi": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "really good actually|monica heisey": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 7,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{25512B95-18C3-4B37-8951-054B3FC0BE18}IMG400.JPG",
+   "text": "1 holds, ~7 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{25512B95-18C3-4B37-8951-054B3FC0BE18}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "a quiet life|ethan joella": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 112,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0439-1/{E8FFAFDC-D7DD-4069-A9F2-B0B0A87A3124}IMG400.JPG",
+   "text": "7 holds, ~112 days (ebook)"
+  }
+ },
+ "bully market|jamie fiore higgins": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "sugaring off|gillian french": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/4575-1/{97EC9890-FBD0-4FC3-9350-E9B4D5BFE1E2}IMG400.JPG",
+   "text": "Available now (ebook)"
+  }
+ },
+ "its one of us|jt ellison": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 5,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1071-1/{41B04EC1-3128-4004-A495-7DEA73086304}IMG400.JPG",
+   "text": "0 holds, ~5 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1071-1/{41B04EC1-3128-4004-A495-7DEA73086304}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "we are the light|matthew quick": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0439-1/{2FFF2522-2F9C-4783-B825-0A00D0F85F38}IMG400.JPG",
+   "text": "0 holds, ~14 days (ebook)"
+  }
+ },
+ "things we never got over|lucy score": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img2.od-cdn.com/ImageType-400/17018-1/{B87F81B8-C620-4B65-9026-184416AF9402}IMG400.JPG",
+   "text": "0 holds, ~14 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "the love wager|lynn painter": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/{A26F215D-36CC-4567-BB63-7FC2DF1C3836}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 159,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{A26F215D-36CC-4567-BB63-7FC2DF1C3836}IMG400.JPG",
+   "text": "33 holds, ~159 days (ebook)"
+  }
+ },
+ "the bomber mafia|malcolm gladwell": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/7552-1/{3AA0E131-8749-4256-B1AD-D90DC604A4A5}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/7552-1/{3AA0E131-8749-4256-B1AD-D90DC604A4A5}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "what are you going through|sigrid nunez": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/{8AFA9914-857F-4F87-9AD0-3944AF39BCBC}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{8AFA9914-857F-4F87-9AD0-3944AF39BCBC}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "now is not the time to panic|kevin wilson": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{4DE38A79-E316-4863-9C71-791BAEE7B90E}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "how not to drown in a glass of water|angie cruz": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/2390-1/{F878F9E7-6CE5-4075-A08A-8B223D65A8A9}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/2390-1/{F878F9E7-6CE5-4075-A08A-8B223D65A8A9}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "how we fight for our lives|saeed jones": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img2.od-cdn.com/ImageType-400/5054-1/436/522/8E/{4365228E-3CA7-4F6C-8224-31251FD35F08}Img400.jpg",
+   "text": "0 holds, ~14 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/5054-1/436/522/8E/{4365228E-3CA7-4F6C-8224-31251FD35F08}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "when we cease to understand the world|benjamn labatut": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/8C3/E19/FB/{8C3E19FB-493F-44B6-B7A9-6D4F2C380B8D}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/8C3/E19/FB/{8C3E19FB-493F-44B6-B7A9-6D4F2C380B8D}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "intimations|zadie smith": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/1AB/5A5/E0/{1AB5A5E0-D9C5-41A3-9A78-76DDA268D31F}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/905/3BF/38/{9053BF38-CC62-495C-8091-198E5F7718AA}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "the soul of a woman|isabel allende": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{9159E913-19A6-45C5-B690-2E7495AD9518}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{9159E913-19A6-45C5-B690-2E7495AD9518}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "a psalm for the wildbuilt|becky chambers": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img2.od-cdn.com/ImageType-400/1493-1/{269E3881-617A-4239-B6D1-86F7692DD94B}IMG400.JPG",
+   "text": "12 holds, ~14 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 28,
+   "cover": "https://img3.od-cdn.com/ImageType-400/2390-1/{5D67CED5-6BE2-4846-AE1B-0C3DDFF83434}IMG400.JPG",
+   "text": "17 holds, ~28 days (audiobook)"
+  }
+ },
+ "body work|melissa febos": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/2D8/65A/72/{2D865A72-9576-4E6C-A4EF-270750CBE5C7}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/2D8/65A/72/{2D865A72-9576-4E6C-A4EF-270750CBE5C7}Img400.jpg",
+   "text": "Available now (ebook)"
+  }
+ },
+ "love and other words|christina lauren": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 6,
+   "cover": "https://img1.od-cdn.com/ImageType-400/5054-1/6C7/3F4/21/{6C73F421-77BA-455E-A939-579129C7D02A}Img400.jpg",
+   "text": "4 holds, ~6 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 396,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0439-1/{C7B03130-8BDF-4456-A2C9-C26FA43D94C0}IMG400.JPG",
+   "text": "112 holds, ~396 days (audiobook)"
+  }
+ },
+ "becoming|michelle obama": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/FA4/C2E/BF/{FA4C2EBF-29D3-40B7-8CAA-18F66EABED80}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/FA4/C2E/BF/{FA4C2EBF-29D3-40B7-8CAA-18F66EABED80}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "the colour of time|dan jones": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "felix ever after|kacen callender": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/7552-1/{AC189AFF-F173-423D-8D0E-D9EADB690829}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 5,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{3E9AD047-8724-4196-BEFF-9CA2045D5662}IMG400.JPG",
+   "text": "0 holds, ~5 days (audiobook)"
+  }
+ },
+ "the seven husbands of evelyn hugo|taylor jenkins reid": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 63,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0439-1/{42631B71-955C-447D-B942-23CD63C897F6}IMG400.JPG",
+   "text": "208 holds, ~63 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 290,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0439-1/{42631B71-955C-447D-B942-23CD63C897F6}IMG400.JPG",
+   "text": "247 holds, ~290 days (ebook)"
+  }
+ },
+ "this time tomorrow|emma straub": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/{813CBCBB-D109-4D57-A1A7-188AF528C46A}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 25,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{813CBCBB-D109-4D57-A1A7-188AF528C46A}IMG400.JPG",
+   "text": "6 holds, ~25 days (audiobook)"
+  }
+ },
+ "stolen focus|johann hari": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/2F2/6BB/1D/{2F26BB1D-16A2-421B-93C5-B4128C2A8B31}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 63,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1191-1/2F2/6BB/1D/{2F26BB1D-16A2-421B-93C5-B4128C2A8B31}Img400.jpg",
+   "text": "8 holds, ~63 days (ebook)"
+  }
+ },
+ "why has nobody told me this before|julie smith": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 25,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/0E0/963/C4/{0E0963C4-0157-4941-8B76-1B2C845A2BEA}Img400.jpg",
+   "text": "6 holds, ~25 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 7,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/02E/FD2/F8/{02EFD2F8-3430-457D-8C87-F14DEA313DAE}Img400.jpg",
+   "text": "6 holds, ~7 days (audiobook)"
+  }
+ },
+ "it starts with us|colleen hoover": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0439-1/{2601B4F1-416A-4C50-8CA5-69BE94167DAE}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0439-1/{2601B4F1-416A-4C50-8CA5-69BE94167DAE}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "the woman who went to bed for a year|sue townsend": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/7723-1/85C/70B/72/{85C70B72-0EFD-4149-835D-0784301BEC7D}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/7723-1/85C/70B/72/{85C70B72-0EFD-4149-835D-0784301BEC7D}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "shoplifting from american apparel|tao lin": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/134/8CF/4D/{1348CF4D-40D1-4130-A1F0-85F636860795}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "the secret history|donna tartt": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 42,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{2F67B10D-4DB8-49FE-A12B-3FCB03184AAB}IMG400.JPG",
+   "text": "256 holds, ~42 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 160,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{2F67B10D-4DB8-49FE-A12B-3FCB03184AAB}IMG400.JPG",
+   "text": "227 holds, ~160 days (ebook)"
+  }
+ },
+ "crying in h mart|michelle zauner": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/8AA/D7C/78/{8AAD7C78-83C2-4CD7-B313-B269B1757683}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 137,
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/8AA/D7C/78/{8AAD7C78-83C2-4CD7-B313-B269B1757683}Img400.jpg",
+   "text": "77 holds, ~137 days (ebook)"
+  }
+ },
+ "boy parts|eliza clark": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/6852-1/FFC/444/E7/{FFC444E7-ECB8-4D38-A66C-5AEA8B1F000A}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 147,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{FB7C0446-3793-4741-9483-D62E18693D24}IMG400.JPG",
+   "text": "20 holds, ~147 days (ebook)"
+  }
+ },
+ "alone with you in the ether|olivie blake": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/2390-1/{97B81D22-D91C-44DB-9D47-BA76821620B7}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/2390-1/{97B81D22-D91C-44DB-9D47-BA76821620B7}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "but what if were wrong thinking about the present as if it were the past|chuck klosterman": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "the history of love|nicole krauss": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/2363-1/{4ED96015-436C-4E32-837D-E10BC34981B7}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/2363-1/{4ED96015-436C-4E32-837D-E10BC34981B7}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "revolution for the hell of it|abbie hoffman": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/6968-1/AEC/CE5/6D/{AECCE56D-9F9D-452F-B9DF-489925DBF921}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "steal this book|abbie hoffman": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "life in code|ellen ullman": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1493-1/0C9/CEF/AB/{0C9CEFAB-5759-4395-B78E-1E8DBC02E223}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "a clockwork orange|anthony burgess": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/2363-1/{700C381C-2E73-44F4-BE4E-EC7B9E46C405}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/2363-1/{700C381C-2E73-44F4-BE4E-EC7B9E46C405}IMG400.JPG",
+   "text": "Available now (ebook)"
+  }
+ },
+ "the invention of the jewish people|shlomo sand": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/83D/42B/A5/{83D42BA5-6F2F-49C8-9EA8-955E3BCF7579}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "the case for israel|alan m dershowitz": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1219-1/381/2D5/6A/{3812D56A-3E7D-43A4-93B8-3F39438F2959}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "the fourdimensional human|laurence scott": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0887-1/29F/D3B/64/{29FD3B64-DCA9-4EDD-9A81-1036DFFB77EC}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "weapons of math destruction|cathy oneil": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/6B1/AD5/D8/{6B1AD5D8-3B3C-4535-A131-65C3F04AD0F8}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/CBA/709/24/{CBA70924-C13D-4762-A689-A5B604529950}Img400.jpg",
+   "text": "0 holds, ~14 days (ebook)"
+  }
+ },
+ "everything happens for a reason|kate bowler": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/FEE/0C5/F0/{FEE0C5F0-CA30-4C97-B2A4-D03A7DFDC209}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1191-1/FEE/0C5/F0/{FEE0C5F0-CA30-4C97-B2A4-D03A7DFDC209}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "lot six|david adjmi": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/953/092/60/{95309260-C112-41DE-9328-A6CD224225DA}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/B6A/5A3/F1/{B6A5A3F1-57F5-4A5C-AD38-740073480A51}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "stories of your life|ted chiang": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "the help|kathryn stockett": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 8,
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/F75/0E2/CA/{F750E2CA-2D38-4CC8-A74D-0517751CD2C9}Img400.jpg",
+   "text": "4 holds, ~8 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/F75/0E2/CA/{F750E2CA-2D38-4CC8-A74D-0517751CD2C9}Img400.jpg",
+   "text": "Available now (ebook)"
+  }
+ },
+ "the invisible wall|harry bernstein": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/790/1ED/6C/{7901ED6C-FEDA-4C8C-9EE3-7413DBE88AF5}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0887-1/B45/583/1F/{B455831F-42A4-4652-95BE-60FEA7E48053}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "the war against the jews|lucy s dawidowicz": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/2363-1/{D5006278-252B-4641-8E7D-157C0B5EFB9C}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "norwegian wood|haruki murakami": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{FD9D53D0-BE97-41B0-BB13-22DC4B329370}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 231,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{FD9D53D0-BE97-41B0-BB13-22DC4B329370}IMG400.JPG",
+   "text": "32 holds, ~231 days (ebook)"
+  }
+ },
+ "the bell jar|sylvia plath": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{1907B6C3-4B5F-40FC-AA4D-E070DE447282}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 219,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{1907B6C3-4B5F-40FC-AA4D-E070DE447282}IMG400.JPG",
+   "text": "186 holds, ~219 days (audiobook)"
+  }
+ },
+ "speak|laurie halse anderson": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 6,
+   "cover": "https://img2.od-cdn.com/ImageType-400/2390-1/BC0/651/84/{BC065184-9617-4B8C-91B6-36EDDDD6C5C1}Img400.jpg",
+   "text": "1 holds, ~6 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 19,
+   "cover": "https://img1.od-cdn.com/ImageType-400/2390-1/BC0/651/84/{BC065184-9617-4B8C-91B6-36EDDDD6C5C1}Img400.jpg",
+   "text": "3 holds, ~19 days (audiobook)"
+  }
+ },
+ "fahrenheit 451|ray bradbury": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0439-1/{63348573-0F7A-4FB9-B84F-F83F7FF14D54}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0439-1/{63348573-0F7A-4FB9-B84F-F83F7FF14D54}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "1984|george orwell": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/{AA1BC9D4-F84D-49A8-A6D8-0CF91B00314D}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{AA1BC9D4-F84D-49A8-A6D8-0CF91B00314D}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "herzog|saul bellow": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 10,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0887-1/{AAA94369-E26C-4C8A-8E82-46DCA7B8A975}IMG400.JPG",
+   "text": "1 holds, ~10 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "and the dead shall rise|steven thomas oney": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "a promised land|barack obama": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1191-1/E98/7B9/2D/{E987B92D-1949-489F-9ABC-8F74436934F3}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/E98/7B9/2D/{E987B92D-1949-489F-9ABC-8F74436934F3}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "the book thief|markus zusak": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 4,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{8BEFE73D-9E68-4B56-A46F-7D7C9F8E87D1}IMG400.JPG",
+   "text": "6 holds, ~4 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 10,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/{8BEFE73D-9E68-4B56-A46F-7D7C9F8E87D1}IMG400.JPG",
+   "text": "11 holds, ~10 days (ebook)"
+  }
+ },
+ "this is real and you are completely unprepared|alan lew": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0017-1/1D6/AA4/0D/{1D6AA40D-3589-4E7B-8C32-4880C0B76421}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "tiny beautiful things|cheryl strayed": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/{E5E1D439-00A2-4E8B-8CA3-ECA97EE85628}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img3.od-cdn.com/ImageType-400/1191-1/{E5E1D439-00A2-4E8B-8CA3-ECA97EE85628}IMG400.JPG",
+   "text": "1 holds, ~14 days (ebook)"
+  }
+ },
+ "things that join the sea and the sky|mark nepo": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/2390-1/{6E2E5754-CD3E-4D96-BAC4-C76041406282}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "scroll of agony|chaim aron kaplan": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "this is not a love story|judy brown": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "where the crawdads sing|delia owens": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/{F1C605F5-0A18-4D6F-9528-3BF6723A7CA4}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/{F1C605F5-0A18-4D6F-9528-3BF6723A7CA4}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "what if its us|becky albertalli": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{AF4A2061-12EE-4FE9-9D51-59563711E25C}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{AF4A2061-12EE-4FE9-9D51-59563711E25C}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "we were the lucky ones|georgia hunter": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/{4652DB0F-BBB8-4392-9460-C6215A34E408}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1523-1/{4652DB0F-BBB8-4392-9460-C6215A34E408}IMG400.JPG",
+   "text": "Available now (ebook)"
+  }
+ },
+ "waking lions|ayelet gundargoshen": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0017-1/2AA/4E2/52/{2AA4E252-574A-4122-A0FD-D0E024648639}Img400.jpg",
+   "text": "Available now (ebook)"
+  }
+ },
+ "the vanishing half|brit bennett": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{18729B09-001B-4076-BC43-61F73362B8A3}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 2,
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/{18729B09-001B-4076-BC43-61F73362B8A3}IMG400.JPG",
+   "text": "4 holds, ~2 days (audiobook)"
+  }
+ },
+ "the subtle art of not giving a fck|mark manson": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 1,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/125/557/F5/{125557F5-A7D1-421D-88CE-A875FBF725E9}Img400.jpg",
+   "text": "0 holds, ~1 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 3,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0293-1/125/557/F5/{125557F5-A7D1-421D-88CE-A875FBF725E9}Img400.jpg",
+   "text": "12 holds, ~3 days (audiobook)"
+  }
+ },
+ "the omnivores dilemma|michael pollan": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/1523-1/{3DC63BC0-BF21-4DD5-95E6-0ED068171D9D}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 5,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/{3DC63BC0-BF21-4DD5-95E6-0ED068171D9D}IMG400.JPG",
+   "text": "0 holds, ~5 days (audiobook)"
+  }
+ },
+ "the kite runner|khaled hosseini": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 3,
+   "cover": "https://img3.od-cdn.com/ImageType-400/5054-1/7C3/188/1C/{7C31881C-7A7E-4C6F-B7AF-D39DA2BF6E4F}Img400.jpg",
+   "text": "0 holds, ~3 days (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 115,
+   "cover": "https://img1.od-cdn.com/ImageType-400/5054-1/7C3/188/1C/{7C31881C-7A7E-4C6F-B7AF-D39DA2BF6E4F}Img400.jpg",
+   "text": "40 holds, ~115 days (ebook)"
+  }
+ },
+ "the hate you give|angie thomas": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "the catcher in the rye|jd salinger": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "range|david epstein": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/885/531/A5/{885531A5-5876-4735-B590-BFCEC59933B1}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1523-1/885/531/A5/{885531A5-5876-4735-B590-BFCEC59933B1}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "on division|goldie goldbloom": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "lolita|vladimir nabokov": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/EF0/08B/13/{EF008B13-2BDD-4198-810A-3B8044DF4DE8}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 151,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{59149757-0DFD-49E2-9F9B-9988703E2F06}IMG400.JPG",
+   "text": "42 holds, ~151 days (ebook)"
+  }
+ },
+ "getting things done|david allen": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/5054-1/361/835/78/{36183578-6D69-4FE8-8BEA-D4EA349A927E}Img400.jpg",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 10,
+   "cover": "https://img3.od-cdn.com/ImageType-400/5054-1/361/835/78/{36183578-6D69-4FE8-8BEA-D4EA349A927E}Img400.jpg",
+   "text": "1 holds, ~10 days (audiobook)"
+  }
+ },
+ "find me|andr aciman": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/1493-1/8BA/847/63/{8BA84763-793D-472D-A6BB-20E400DD4719}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/2390-1/006/89B/15/{00689B15-6000-49A4-8E7A-B5CBFADD9740}Img400.jpg",
+   "text": "Available now (ebook)"
+  }
+ },
+ "einstein and the rabbi|naomi levy": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/1493-1/919/CCC/DA/{919CCCDA-AF20-421A-B609-7CAEACF33BAF}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img1.od-cdn.com/ImageType-400/1493-1/919/CCC/DA/{919CCCDA-AF20-421A-B609-7CAEACF33BAF}Img400.jpg",
+   "text": "0 holds, ~14 days (audiobook)"
+  }
+ },
+ "cant hurt me|david goggins": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/2281-1/{ED912E01-9A4D-4D88-9B08-A33452182C26}IMG400.JPG",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/2281-1/{ED912E01-9A4D-4D88-9B08-A33452182C26}IMG400.JPG",
+   "text": "Available now (ebook)"
+  }
+ },
+ "blood in the water|heather ann thompson": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0111-1/B6E/32C/6F/{B6E32C6F-14A5-433B-A631-DC14BADA3791}Img400.jpg",
+   "text": "Available now (ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 14,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/B6E/32C/6F/{B6E32C6F-14A5-433B-A631-DC14BADA3791}Img400.jpg",
+   "text": "0 holds, ~14 days (ebook)"
+  }
+ },
+ "americanah|chimamanda ngozi adichie": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0111-1/{1E52B487-6722-4A4E-9EF3-66FF41F5E797}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/0111-1/{1E52B487-6722-4A4E-9EF3-66FF41F5E797}IMG400.JPG",
+   "text": "Available now (audiobook, ebook)"
+  }
+ },
+ "all the light we cannot see|anthony doerr": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img1.od-cdn.com/ImageType-400/5054-1/{A42E554F-6265-4426-A129-47FEDE1EBC99}IMG400.JPG",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 59,
+   "cover": "https://img2.od-cdn.com/ImageType-400/0439-1/{276E66C1-BF9C-4D95-8A38-EDB5E9119CEE}IMG400.JPG",
+   "text": "78 holds, ~59 days (audiobook)"
+  }
+ },
+ "acid for the children|flea": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0887-1/0E3/30A/D2/{0E330AD2-4F8A-4435-9061-E65AB78144FB}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "available",
+   "cover": "https://img2.od-cdn.com/ImageType-400/0887-1/0E3/30A/D2/{0E330AD2-4F8A-4435-9061-E65AB78144FB}Img400.jpg",
+   "text": "Available now (audiobook)"
+  }
+ },
+ "a sand county almanac and sketches here and there|aldo leopold": {
+  "New York Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  },
+  "Harris County Public Library": {
+   "status": "not_owned",
+   "text": "Not in catalog"
+  }
+ },
+ "a return to love|marianne williamson": {
+  "New York Public Library": {
+   "status": "wait",
+   "days": 2,
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/{4C3F8EB7-9980-4FE5-8E40-F593CFE3880F}IMG400.JPG",
+   "text": "0 holds, ~2 days (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 126,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/FC2/1E2/8A/{FC21E28A-9390-45EA-9AD4-0D8E23DC1447}Img400.jpg",
+   "text": "8 holds, ~126 days (ebook)"
+  }
+ },
+ "10 happier|dan harris": {
+  "New York Public Library": {
+   "status": "available",
+   "cover": "https://img3.od-cdn.com/ImageType-400/0293-1/EC9/89F/F7/{EC989FF7-1CCE-4E63-8E98-1A9115DCC6CF}Img400.jpg",
+   "text": "Available now (audiobook)"
+  },
+  "Harris County Public Library": {
+   "status": "wait",
+   "days": 56,
+   "cover": "https://img1.od-cdn.com/ImageType-400/0293-1/{4DA3E1E6-C2E9-4102-9E6E-C4BB9717C8AD}IMG400.JPG",
+   "text": "3 holds, ~56 days (ebook)"
+  }
+ }
+}
