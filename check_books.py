@@ -71,6 +71,8 @@ def goodreads_rss():
             books.append({
                 "title": clean_title(it.findtext("title")),
                 "author": (it.findtext("author_name") or "").strip(),
+                "image": it.findtext("book_medium_image_url") or "",
+                "url": "https://www.goodreads.com/book/show/" + (it.findtext("book_id") or ""),
             })
         if len(items) < 200:
             break
@@ -169,30 +171,9 @@ def notify(title, message):
 
 
 def write_dashboard(results, updated):
-    def rank(r):
-        libs = r["libs"].values()
-        if any(l["status"] == "available" for l in libs): return (0, 0)
-        waits = [l["days"] for l in libs if l["status"] == "wait"]
-        if waits: return (1, min(waits))
-        return (2, 0)
-    rows = []
-    for r in sorted(results, key=rank):
-        cells = "".join(
-            f'<div class="l {l["status"]}"><b>{html.escape(n)}</b>: {html.escape(l["text"])}</div>'
-            for n, l in r["libs"].items() if l["status"] != "not_owned")
-        rows.append(f'<div class="b"><h3>{html.escape(r["title"])}</h3>'
-                    f'<small>{html.escape(r["author"])}</small>'
-                    f'{cells or "<div class=l>Not at any of your libraries</div>"}</div>')
     DASHBOARD.parent.mkdir(exist_ok=True)
-    DASHBOARD.write_text(f"""<!doctype html><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<title>Want to read</title><style>
-body{{font:16px system-ui;max-width:640px;margin:auto;padding:16px;background:#fff;color:#111}}
-@media(prefers-color-scheme:dark){{body{{background:#111;color:#eee}}}}
-.b{{border-bottom:1px solid #8884;padding:10px 0}}h3{{margin:0}}small{{opacity:.7}}
-.l{{font-size:14px;margin-top:4px}}.available{{color:#1a9a4a}}.wait{{opacity:.85}}
-</style><h2>Want to read</h2><p><small>Updated {updated}</small></p>
-{''.join(rows)}""", encoding="utf-8")
+    (DASHBOARD.parent / "data.json").write_text(
+        json.dumps({"updated": updated, "books": results}, indent=1), encoding="utf-8")
 
 
 def main():
@@ -221,7 +202,8 @@ def main():
                     libs[label] = old[bk][label]
             time.sleep(0.3)
         new_state[bk] = libs
-        results.append({"title": b["title"], "author": b["author"], "libs": libs})
+        results.append({"title": b["title"], "author": b["author"], "image": b.get("image", ""),
+                        "url": b.get("url", ""), "libs": libs})
         for label, l in libs.items():
             was = old.get(bk, {}).get(label, {}).get("status")
             if l["status"] == "available" and was != "available":
