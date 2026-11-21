@@ -122,7 +122,7 @@ def goodreads_csv():
     books = []
     with CSV_FALLBACK.open(newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
-            if row.get("Exclusive Shelf") == "to-read":
+            if row.get("Exclusive Shelf") == "to-read" and not (row.get("Date Read") or "").strip():
                 books.append({"title": clean_title(row["Title"]),
                               "author": row["Author"].strip()})
     return books
@@ -171,6 +171,16 @@ def search_library(key, book):
     return hits
 
 
+def cover_of(hits):
+    for h in hits:
+        c = h.get("covers") or {}
+        for k in ("cover300Wide", "cover150Wide", "cover510Wide"):
+            href = (c.get(k) or {}).get("href")
+            if href:
+                return href
+    return ""
+
+
 def summarize(hits):
     """Collapse matching editions into one status for a library."""
     if not hits:
@@ -178,12 +188,13 @@ def summarize(hits):
     avail = [h for h in hits if h.get("isAvailable")]
     if avail:
         kinds = sorted({h["type"]["id"] for h in avail})
-        return {"status": "available", "text": "Available now (" + ", ".join(kinds) + ")"}
+        return {"status": "available", "cover": cover_of(hits),
+                "text": "Available now (" + ", ".join(kinds) + ")"}
     best = min(hits, key=lambda h: h.get("estimatedWaitDays") or 9999)
     days = best.get("estimatedWaitDays")
     holds = best.get("holdsCount", 0)
     wait = f"~{days} days" if days else "unknown wait"
-    return {"status": "wait", "days": days or 9999,
+    return {"status": "wait", "days": days or 9999, "cover": cover_of(hits),
             "text": f"{holds} holds, {wait} ({best['type']['id']})"}
 
 
@@ -241,6 +252,8 @@ def main():
                     libs[label] = old[bk][label]
             time.sleep(0.3)
         new_state[bk] = libs
+        if not b.get("image"):
+            b["image"] = next((l["cover"] for l in libs.values() if l.get("cover")), "")
         results.append({"title": b["title"], "author": b["author"], "image": b.get("image", ""),
                         "url": b.get("url", ""), "libs": libs})
         for label, l in libs.items():
