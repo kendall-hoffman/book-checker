@@ -61,8 +61,12 @@ def clean_title(t):
 def goodreads_rss():
     books, page = [], 1
     while True:
-        url = (f"https://www.goodreads.com/review/list_rss/{GOODREADS_USER_ID}"
-               f"?shelf=to-read&per_page=200&page={page}")
+        base = os.environ.get("GOODREADS_RSS_URL", "").strip() or \
+            f"https://www.goodreads.com/review/list_rss/{GOODREADS_USER_ID}"
+        parts = urllib.parse.urlsplit(base)
+        qs = dict(urllib.parse.parse_qsl(parts.query))
+        qs.update({"shelf": "to-read", "per_page": "200", "page": str(page)})
+        url = urllib.parse.urlunsplit(parts._replace(query=urllib.parse.urlencode(qs)))
         root = ET.fromstring(get(url))
         items = root.findall("./channel/item")
         if not items:
@@ -80,6 +84,40 @@ def goodreads_rss():
     return books
 
 
+def goodreads_scrape():
+    """Read the public shelf page (RSS was retired by Goodreads in Nov 2026)."""
+    books, seen = [], set()
+    for page in range(1, 31):
+        url = (f"https://www.goodreads.com/review/list/{GOODREADS_USER_ID}"
+               f"?shelf=to-read&per_page=100&page={page}&sort=date_added&order=d")
+        doc = get(url).decode("utf-8", "replace")
+        rows = re.split(r'<tr[^>]+id="review_', doc)[1:]
+        added = 0
+        for row in rows:
+            t = re.search(r'class="field title".*?<a[^>]*title="([^"]+)"[^>]*href="(/book/show/[^"]+)"', row, re.S) \
+                or re.search(r'class="field title".*?<a[^>]*href="(/book/show/[^"]+)"[^>]*title="([^"]+)"', row, re.S)
+            a = re.search(r'class="field author".*?<a [^>]*>([^<]+)</a>', row, re.S)
+            im = re.search(r'class="field cover".*?<img[^>]*src="([^"]+)"', row, re.S)
+            if not t or not a:
+                continue
+            g = t.groups()
+            title, href = (g[0], g[1]) if g[1].startswith("/book") else (g[1], g[0])
+            author = html.unescape(a.group(1)).strip()
+            if "," in author:                       # "Last, First" -> "First Last"
+                last, first = author.split(",", 1)
+                author = f"{first.strip()} {last.strip()}"
+            if href in seen:
+                continue
+            seen.add(href)
+            added += 1
+            books.append({"title": clean_title(title), "author": author,
+                          "image": im.group(1) if im else "",
+                          "url": "https://www.goodreads.com" + href})
+        if added == 0:
+            break
+    return books
+
+
 def goodreads_csv():
     books = []
     with CSV_FALLBACK.open(newline="", encoding="utf-8") as f:
@@ -91,19 +129,20 @@ def goodreads_csv():
 
 
 def load_books():
-    try:
-        books = goodreads_rss()
-        if books:
-            print(f"Goodreads RSS: {len(books)} books")
-            return books
-        print("RSS returned nothing.")
-    except Exception as e:
-        print("RSS failed:", e)
+    for name, fn in (("RSS", goodreads_rss), ("public shelf page", goodreads_scrape)):
+        try:
+            books = fn()
+            if books:
+                print(f"Goodreads {name}: {len(books)} books")
+                return books
+            print(f"Goodreads {name}: returned nothing.")
+        except Exception as e:
+            print(f"Goodreads {name} failed: {e}")
     if CSV_FALLBACK.exists():
         books = goodreads_csv()
         print(f"CSV fallback: {len(books)} books")
         return books
-    sys.exit("Could not load your Goodreads list.")
+    sys.exit("Could not load your Goodreads list. Upload goodreads_library_export.csv.")
 
 
 # ---------- OverDrive ----------
