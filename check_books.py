@@ -11,6 +11,7 @@ Usage:
 import csv, html, json, os, re, sys, time
 import urllib.parse, urllib.request, urllib.error
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 GOODREADS_USER_ID = "20454106"
@@ -21,11 +22,6 @@ LIBRARIES = {
     "Brooklyn Public Library": "bklyn",
     "New York Public Library": "nypl",
     "Harris County Public Library": "hcpl",
-    "Houston Public Library": "houstonlibrary",
-    "Bryan + College Station (BCS)": "bcs",
-    "Beaumont Public Library": "beaumont",
-    "Round Rock Public Library": "roundrock",
-    "Montgomery County Memorial": "mcmls",
 }
 
 STATE_FILE = Path("state.json")
@@ -118,9 +114,18 @@ def goodreads_scrape():
     return books
 
 
+def find_csv():
+    """Find the Goodreads export wherever it was uploaded in the repo."""
+    if CSV_FALLBACK.exists():
+        return CSV_FALLBACK
+    found = sorted(p for p in Path(".").rglob("*.csv") if "goodreads" in p.name.lower())
+    return found[0] if found else None
+
+
 def goodreads_csv():
     books = []
-    with CSV_FALLBACK.open(newline="", encoding="utf-8") as f:
+    path = find_csv()
+    with path.open(newline="", encoding="utf-8-sig") as f:
         for row in csv.DictReader(f):
             if row.get("Exclusive Shelf") == "to-read" and not (row.get("Date Read") or "").strip():
                 books.append({"title": clean_title(row["Title"]),
@@ -138,11 +143,18 @@ def load_books():
             print(f"Goodreads {name}: returned nothing.")
         except Exception as e:
             print(f"Goodreads {name} failed: {e}")
-    if CSV_FALLBACK.exists():
+    path = find_csv()
+    if path:
         books = goodreads_csv()
-        print(f"CSV fallback: {len(books)} books")
-        return books
-    sys.exit("Could not load your Goodreads list. Upload goodreads_library_export.csv.")
+        print(f"CSV fallback ({path}): {len(books)} to-read books")
+        if not books:
+            print("No rows with Exclusive Shelf = to-read and no Date Read were found.")
+        else:
+            return books
+    else:
+        print("No Goodreads CSV found in the repo. Files here:",
+              sorted(str(p) for p in Path(".").iterdir() if not p.name.startswith(".git")))
+    sys.exit("Could not load your Goodreads list. Upload your Goodreads export CSV to the repo.")
 
 
 # ---------- OverDrive ----------
@@ -237,20 +249,27 @@ def main():
     for b in books:
         bk = f'{norm(b["title"])}|{norm(b["author"])}'
         libs = {}
-        for label, key in LIBRARIES.items():
+
+        def lookup(item, b=b, bk=bk):
+            label, key = item
             if key in dead:
-                continue
+                return label, None
             try:
-                libs[label] = summarize(search_library(key, b))
+                time.sleep(0.2)
+                return label, summarize(search_library(key, b))
             except urllib.error.HTTPError as e:
                 if e.code == 404:
                     print(f"Library address '{key}' not found; skipping. Run --verify.")
                     dead.add(key)
+                return label, None
             except Exception as e:
                 print(f"{label}: error for {b['title']}: {e}")
-                if label in old.get(bk, {}):  # keep previous status on errors
-                    libs[label] = old[bk][label]
-            time.sleep(0.3)
+                return label, old.get(bk, {}).get(label)  # keep previous status on errors
+
+        with ThreadPoolExecutor(max_workers=len(LIBRARIES)) as pool:
+            for label, res in pool.map(lookup, LIBRARIES.items()):
+                if res:
+                    libs[label] = res
         new_state[bk] = libs
         if not b.get("image"):
             b["image"] = next((l["cover"] for l in libs.values() if l.get("cover")), "")
