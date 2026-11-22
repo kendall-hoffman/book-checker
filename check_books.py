@@ -1,317 +1,232 @@
-#!/usr/bin/env python3
-"""Check your Goodreads to-read list against Libby/OverDrive library catalogs.
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Want to read · Library availability</title>
+<style>
+:root{--bg:#faf8f5;--card:#fff;--ink:#1d1b19;--muted:#6f6a63;--line:#e6e1d9;--green:#17803d;--greenbg:#e3f4e8;--amber:#8a5a00;--amberbg:#fbf0d9;--accent:#2f5d50}
+@media(prefers-color-scheme:dark){:root{--bg:#141413;--card:#1e1d1b;--ink:#efece6;--muted:#9b958b;--line:#33312d;--green:#5fd68a;--greenbg:#17301f;--amber:#e9b949;--amberbg:#33290f;--accent:#8cc5b3}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--accent)}
+header{max-width:1100px;margin:0 auto;padding:32px 20px 8px}
+h1{font:600 30px Georgia,serif;margin:0}
+.sub{color:var(--muted);font-size:14px;margin-top:4px}
+.bar{max-width:1100px;margin:0 auto;padding:12px 20px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;position:sticky;top:0;background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
+input,select{font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+input{flex:1;min-width:180px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:7px 13px;border-radius:99px;cursor:pointer;font:inherit;font-size:14px}
+.chip.on{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+main{max-width:1100px;margin:0 auto;padding:16px 20px 60px;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.card{display:flex;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;cursor:pointer;text-align:left;font:inherit;color:inherit}
+.card:hover{border-color:var(--accent)}
+.cover{width:72px;height:108px;border-radius:6px;background:var(--line);object-fit:cover;flex:none}
+.info{min-width:0;flex:1}
+.info h3{margin:0;font:600 17px/1.25 Georgia,serif}
+.author{color:var(--muted);font-size:14px;margin-bottom:8px}
+.tag{display:block;font-size:13px;padding:4px 9px;border-radius:8px;margin-top:4px}
+.tag.available{background:var(--greenbg);color:var(--green);font-weight:600}
+.tag.wait{background:var(--amberbg);color:var(--amber)}
+.none{font-size:13px;color:var(--muted)}
+.gen{font-size:12px;color:var(--muted);margin:-4px 0 6px}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:60px 0}
+/* detail page */
+#detail{display:none;max-width:820px;margin:0 auto;padding:20px 20px 80px}
+.back{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 14px;border-radius:99px;cursor:pointer;font:inherit;font-size:14px;margin-bottom:18px}
+.dtop{display:flex;gap:22px;flex-wrap:wrap}
+.dcover{width:160px;height:240px;border-radius:8px;object-fit:cover;background:var(--line);flex:none}
+.dmeta{flex:1;min-width:240px}
+.dmeta h2{font:600 28px/1.2 Georgia,serif;margin:0}
+.dmeta .by{color:var(--muted);margin:4px 0 12px;font-size:17px}
+.facts{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;color:var(--muted);margin-bottom:12px}
+.genres{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
+.genre{font-size:13px;border:1px solid var(--line);padding:3px 10px;border-radius:99px;background:var(--card)}
+h4{font:600 13px system-ui;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:26px 0 8px}
+.blurb{white-space:pre-line}
+table.av{width:100%;border-collapse:collapse;font-size:15px}
+table.av th,table.av td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+table.av th{font-weight:600;color:var(--muted);font-size:13px}
+.st.available{color:var(--green);font-weight:600}.st.wait{color:var(--amber)}.st.not_owned{color:var(--muted)}
+</style>
+</head>
+<body>
+<div id="list">
+<header>
+  <h1>Want to read</h1>
+  <div class="sub" id="meta">Loading…</div>
+</header>
+<div class="bar">
+  <input id="q" type="search" placeholder="Search title or author">
+  <div class="chips" id="chips"></div>
+  <select id="fmt">
+    <option value="ebook">Ebooks</option>
+    <option value="audiobook">Audiobooks</option>
+    <option value="either">Ebooks + audio</option>
+  </select>
+  <select id="lib"></select>
+  <select id="sort">
+    <option value="added">Sort: recently added</option>
+    <option value="avail">Sort: availability</option>
+    <option value="wait">Sort: shortest wait</option>
+    <option value="title">Sort: title</option>
+    <option value="author">Sort: author</option>
+  </select>
+</div>
+<main id="grid"></main>
+</div>
 
-Reads goodreads_library_export.csv (any CSV with "goodreads" in its name),
-looks every to-read book up at your libraries (ebook and audiobook separately),
-and writes docs/data.json for the website. Sends an ntfy push when an ebook
-newly becomes available (only if the NTFY_TOPIC secret is set).
+<div id="detail"></div>
 
-  python check_books.py            # normal run
-  python check_books.py --verify   # only test the library addresses
-"""
-import csv, hashlib, html, json, os, re, sys, time
-import urllib.parse, urllib.request, urllib.error
-from concurrent.futures import ThreadPoolExecutor
-from pathlib import Path
+<script>
+const FILTERS = [["all","All"],["available","Available now"],["wait","Waitlist"],["none","Not owned"]];
+const KIND_LABEL = {ebook:"Ebook", audiobook:"Audiobook"};
+let DATA = [], filter = "available", scrollY0 = 0;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const short = n => n.replace(/ Public Library/, "");
+const GENERIC = new Set(["fiction","nonfiction","literature","general"]);
+// up to 3 genres for a card, specific ones first ("Fiction" alone says little)
+const cardGenres = b => {
+  const g = (b.info && b.info.genres) || [];
+  return [...g.filter(x => !GENERIC.has(x.toLowerCase())), ...g.filter(x => GENERIC.has(x.toLowerCase()))].slice(0, 3);
+};
 
-# Label -> OverDrive address(es) to try, in order (the part before .overdrive.com).
-# The first one that exists is used.
-LIBRARIES = {
-    "Brooklyn Public Library": ["bklynlibrary", "bklyn", "bpl", "brooklyn", "brooklynpubliclibrary"],
-    "New York Public Library": ["nypl"],
-    "Harris County Public Library": ["hcpl"],
+// remember the format choice (storage can be unavailable, so guard it)
+try { const f = localStorage.getItem("fmt"); if (f) $("fmt").value = f; } catch (e) {}
+
+const kinds = () => $("fmt").value === "either" ? ["ebook","audiobook"] : [$("fmt").value];
+// every (library, format) status for a book under the current library + format choice
+function statuses(b){
+  const sel = $("lib").value, out = [];
+  for (const [name, l] of Object.entries(b.libs))
+    if (!sel || name === sel)
+      for (const k of kinds()) if (l[k]) out.push({lib:name, kind:k, ...l[k]});
+  return out;
+}
+function state(b){
+  const s = statuses(b);
+  if (s.some(x => x.status === "available")) return "available";
+  if (s.some(x => x.status === "wait")) return "wait";
+  return "none";
+}
+function minWait(b){
+  const w = statuses(b).filter(x => x.status === "wait").map(x => x.days ?? 9999);
+  return w.length ? Math.min(...w) : 99999;
+}
+const RANK = {available:0, wait:1, none:2};
+
+function render(){
+  const q = $("q").value.trim().toLowerCase(), sort = $("sort").value;
+  const rows = DATA.filter(b => (filter === "all" || state(b) === filter)
+    && (!q || (b.title + " " + b.author).toLowerCase().includes(q)));
+  rows.sort((a,b) => {
+    if (sort === "title") return a.title.localeCompare(b.title);
+    if (sort === "author") return a.author.localeCompare(b.author);
+    if (sort === "wait") return minWait(a) - minWait(b) || a.title.localeCompare(b.title);
+    if (sort === "added") return (b.added || "").localeCompare(a.added || "") || a.title.localeCompare(b.title);
+    return RANK[state(a)] - RANK[state(b)] || minWait(a) - minWait(b);
+  });
+  const both = kinds().length > 1;
+  $("grid").innerHTML = rows.length ? rows.map(b => {
+    const tags = statuses(b).filter(x => x.status !== "not_owned")
+      .sort((x,y) => (x.status === "available" ? 0 : 1) - (y.status === "available" ? 0 : 1))
+      .map(x => `<span class="tag ${x.status}">${esc(short(x.lib))}${both ? " · " + x.kind : ""}: ${esc(x.text)}</span>`).join("");
+    const img = b.image ? `<img class="cover" loading="lazy" src="${esc(b.image)}" alt="">` : `<div class="cover"></div>`;
+    return `<button class="card" data-id="${b.id}">${img}<div class="info"><h3>${esc(b.title)}</h3><div class="author">${esc(b.author)}</div>${cardGenres(b).length ? `<div class="gen">${cardGenres(b).map(esc).join(" · ")}</div>` : ""}${tags || '<span class="none">Not at the selected libraries</span>'}</div></button>`;
+  }).join("") : `<div class="empty">${filter === "available" ? "Nothing on your list is available right now in this format. Try Waitlist to see the shortest waits." : "No books match."}</div>`;
+  renderChips();
+}
+function renderChips(){
+  const counts = {all: DATA.length, available:0, wait:0, none:0};
+  DATA.forEach(b => counts[state(b)]++);
+  $("chips").innerHTML = FILTERS.map(([k,l]) =>
+    `<button class="chip ${filter===k?"on":""}" data-k="${k}">${l} · ${counts[k]}</button>`).join("");
 }
 
-STATE_FILE = Path("state.json")
-DATA_FILE = Path("docs/data.json")
-CSV_NAME = Path("goodreads_library_export.csv")
-NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "")
-UA = {"User-Agent": "Mozilla/5.0 (book-availability-checker)"}
-KINDS = ("ebook", "audiobook")
-API = "https://thunder.api.overdrive.com/v2/libraries"
+/* ---------- detail page ---------- */
+function showDetail(id){
+  const b = DATA.find(x => x.id === id);
+  if (!b) return showList();
+  const info = b.info || {};
+  const facts = [
+    (b.year || info.published) ? "Published " + (b.year || info.published) : "",
+    b.pages ? b.pages + " pages" : "",
+    b.rating && b.rating !== "0" && b.rating !== "0.00" ? "★ " + b.rating + " on Goodreads" : "",
+    info.publisher || "",
+    info.series ? "Series: " + info.series : "",
+    b.added ? "Added to your list " + b.added : "",
+  ].filter(Boolean).map(f => `<span>${esc(f)}</span>`).join("");
+  const genres = (info.genres || []).map(g => `<span class="genre">${esc(g)}</span>`).join("");
+  const rows = Object.entries(b.libs).flatMap(([name, l]) => ["ebook","audiobook"].map(k => {
+    const s = l[k]; if (!s) return "";
+    const status = s.url && s.status !== "not_owned"
+      ? `<a href="${esc(s.url)}" target="_blank" rel="noopener" class="st ${s.status}">${esc(s.text)}</a>`
+      : `<span class="st ${s.status}">${esc(s.text)}</span>`;
+    const rec = s.matched ? `${esc(s.matched)}${s.copies ? "<br><small>" + esc(s.copies) + "</small>" : ""}` : "";
+    return `<tr><td>${esc(name)}</td><td>${KIND_LABEL[k]}</td><td>${status}</td><td>${rec}</td></tr>`;
+  })).join("");
+  const gr = b.url || "https://www.goodreads.com/search?q=" + encodeURIComponent(b.title + " " + b.author);
+  $("detail").innerHTML = `
+    <button class="back" id="back">← Back to list</button>
+    <div class="dtop">
+      ${b.image ? `<img class="dcover" src="${esc(b.image)}" alt="">` : `<div class="dcover"></div>`}
+      <div class="dmeta">
+        <h2>${esc(b.full_title || b.title)}</h2>
+        <div class="by">${esc(b.author)}</div>
+        <div class="facts">${facts}</div>
+        ${genres ? `<div class="genres">${genres}</div>` : ""}
+        <p><a href="${esc(gr)}" target="_blank" rel="noopener">View on Goodreads ↗</a></p>
+      </div>
+    </div>
+    <h4>About this book</h4>
+    <div class="blurb">${info.description ? esc(info.description) : "No description found in the library catalog."}</div>
+    <h4>Availability</h4>
+    <table class="av"><tr><th>Library</th><th>Format</th><th>Status</th><th>Catalog record</th></tr>${rows}</table>`;
+  $("list").style.display = "none"; $("detail").style.display = "block";
+  window.scrollTo(0, 0);
+}
+function showList(){
+  $("detail").style.display = "none"; $("list").style.display = "";
+  window.scrollTo(0, scrollY0);
+}
+function route(){
+  const m = location.hash.match(/^#b-([0-9a-f]+)$/);
+  m ? showDetail(m[1]) : showList();
+}
 
+let UPDATED = "";
+async function loadData(){
+  try {
+    const r = await fetch("data.json?t=" + Date.now(), {cache:"no-store"});
+    if (!r.ok) throw new Error("data.json returned HTTP " + r.status + " (file not found on the site yet)");
+    const j = await r.json();
+    if (!j.books) throw new Error("data.json has no books list");
+    DATA = j.books; UPDATED = j.updated;
+    $("meta").textContent = `${DATA.length} books · updated ${j.updated} · refreshes automatically every 4 hours`;
+    const keep = $("lib").value;
+    const names = [...new Set(DATA.flatMap(b => Object.keys(b.libs)))];
+    $("lib").innerHTML = `<option value="">All libraries</option>` + names.map(n => `<option value="${esc(n)}">${esc(short(n))}</option>`).join("");
+    if (names.includes(keep)) $("lib").value = keep;
+    render();
+    return true;
+  } catch (e) {
+    if (!DATA.length) $("meta").textContent = "No data yet: " + e.message + ". Run the GitHub workflow, wait a minute, then refresh.";
+    return false;
+  }
+}
+async function init(){ if (await loadData()) route(); }
 
-def get(url, tries=3):
-    for i in range(tries):
-        try:
-            req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=30) as r:
-                return r.read()
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                raise
-            time.sleep(2 * (i + 1))
-        except Exception:
-            time.sleep(2 * (i + 1))
-    raise RuntimeError(f"failed: {url}")
-
-
-# ---------- text helpers ----------
-def clean_title(t):
-    t = html.unescape(t or "")
-    t = re.sub(r"\s*\(.*?\)\s*", " ", t)   # drop "(Series, #1)"
-    t = t.split(":")[0]                     # drop subtitle
-    return re.sub(r"\s+", " ", t).strip()
-
-
-def norm(s):
-    s = re.sub(r"[^a-z0-9 ]", "", html.unescape(s or "").lower())
-    return re.sub(r"\s+", " ", s).strip()
-
-
-def plain(text):
-    text = re.sub(r"</p>|</div>", "\n\n", text or "", flags=re.I)
-    text = re.sub(r"<\s*br\s*/?>|</li>", "\n", text, flags=re.I)
-    text = html.unescape(re.sub(r"<[^>]+>", "", text))
-    text = re.sub(r"[ \t]+", " ", text)
-    return re.sub(r"\n\s*\n+", "\n\n", text).strip()
-
-
-# ---------- Goodreads (CSV export) ----------
-def find_csv():
-    if CSV_NAME.exists():
-        return CSV_NAME
-    found = sorted(p for p in Path(".").rglob("*.csv") if "goodreads" in p.name.lower())
-    return found[0] if found else None
-
-
-def load_books():
-    path = find_csv()
-    if not path:
-        print("No Goodreads CSV found. Files here:",
-              sorted(p.name for p in Path(".").iterdir() if not p.name.startswith(".git")))
-        sys.exit("Upload your Goodreads export CSV to the repo (top level).")
-    books = []
-    with path.open(newline="", encoding="utf-8-sig") as f:
-        for row in csv.DictReader(f):
-            if row.get("Exclusive Shelf") != "to-read":
-                continue
-            if (row.get("Date Read") or "").strip():
-                continue
-            gid = (row.get("Book Id") or "").strip()
-            books.append({
-                "title": clean_title(row.get("Title", "")),
-                "full_title": html.unescape(row.get("Title", "")).strip(),
-                "author": (row.get("Author") or "").strip(),
-                "added": (row.get("Date Added") or "").strip().replace("/", "-"),
-                "pages": (row.get("Number of Pages") or "").strip(),
-                "rating": (row.get("Average Rating") or "").strip(),
-                "year": (row.get("Original Publication Year") or row.get("Year Published") or "").strip(),
-                "url": f"https://www.goodreads.com/book/show/{gid}" if gid else "",
-            })
-    print(f"{path}: {len(books)} to-read books")
-    if not books:
-        sys.exit("No rows with Exclusive Shelf = to-read (and no Date Read) in the CSV.")
-    return books
-
-
-# ---------- OverDrive ----------
-def resolve_libraries():
-    found = {}
-    for label, candidates in LIBRARIES.items():
-        for key in candidates:
-            try:
-                get(f"{API}/{key}?x-client-id=dewey", tries=1)
-                found[label] = key
-                print(f"OK         {label} -> {key}.overdrive.com")
-                break
-            except Exception:
-                continue
-        else:
-            print(f"NOT FOUND  {label}. Tried: {', '.join(candidates)}")
-    return found
-
-
-def is_english(item):
-    """English only. Records with no language listed are kept (can't tell)."""
-    langs = item.get("languages") or []
-    if not langs:
-        return True
-    return any((l.get("id") if isinstance(l, dict) else str(l)).lower().startswith("en")
-               or (l.get("name", "") if isinstance(l, dict) else "").lower() == "english"
-               for l in langs)
-
-
-def search_library(key, book):
-    q = urllib.parse.urlencode({
-        "query": f'{book["title"]} {book["author"]}',
-        "perPage": 12, "page": 1, "x-client-id": "dewey",
-    })
-    data = json.loads(get(f"{API}/{key}/media?{q}"))
-    want_t = norm(book["title"])
-    last = norm(book["author"].split()[-1]) if book["author"] else ""
-    hits = []
-    for it in data.get("items", []):
-        if it.get("type", {}).get("id") not in KINDS:
-            continue
-        if not is_english(it):
-            continue
-        if norm(clean_title(it.get("title", ""))) == want_t and \
-                (not last or last in norm(it.get("firstCreatorName", ""))):
-            hits.append(it)
-    return hits
-
-
-def cover_of(hits):
-    for h in hits:
-        c = h.get("covers") or {}
-        for k in ("cover300Wide", "cover150Wide", "cover510Wide"):
-            href = (c.get(k) or {}).get("href")
-            if href:
-                return href
-    return ""
-
-
-def summarize(hits, kind, key):
-    hits = [h for h in hits if h.get("type", {}).get("id") == kind]
-    if not hits:
-        return {"status": "not_owned", "text": "Not in catalog"}
-    link = lambda h: f"https://{key}.overdrive.com/media/{h.get('id', '')}"
-
-    def copies(h):
-        owned, free = h.get("ownedCopies"), h.get("availableCopies")
-        return f"{free} of {owned} copies free" if owned is not None and free is not None else ""
-
-    # Only count a title as available if the catalog says so AND a copy is really free
-    # AND it is not a pre-release (pre-release titles are hold-only until publication).
-    avail = [h for h in hits if h.get("isAvailable") and not h.get("isPreReleaseTitle")
-             and (h.get("availableCopies") is None or h.get("availableCopies") > 0)]
-    if avail:
-        h = avail[0]
-        return {"status": "available", "text": "Available now", "cover": cover_of(avail),
-                "url": link(h), "matched": h.get("title", ""), "copies": copies(h)}
-    best = min(hits, key=lambda h: h.get("estimatedWaitDays") or 9999)
-    days, holds = best.get("estimatedWaitDays"), best.get("holdsCount", 0)
-    text = f"{holds} holds, ~{days} days" if days else f"{holds} holds"
-    if best.get("isPreReleaseTitle"):
-        text = "Not released yet (hold only)"
-    return {"status": "wait", "days": days or 9999, "cover": cover_of(hits), "url": link(best),
-            "text": text, "matched": best.get("title", ""), "copies": copies(best)}
-
-
-DESC_KEYS = ("fullDescription", "description", "shortDescription")
-
-
-def full_description(hit):
-    """Search results often carry a shortened blurb, so also read the title's own record."""
-    texts = [plain(hit[k]) for k in DESC_KEYS if hit.get(k)]
-    have = max(map(len, texts), default=0)
-    key, rid = hit.get("_lib"), hit.get("id")
-    if key and rid:
-        for url in (f"{API}/{key}/media/{rid}?x-client-id=dewey",
-                    f"https://thunder.api.overdrive.com/v2/media/{rid}?x-client-id=dewey"):
-            try:
-                d = json.loads(get(url, tries=2))
-            except Exception:
-                continue
-            more = [plain(d[k]) for k in DESC_KEYS if d.get(k)]
-            texts += more
-            if max(map(len, more), default=0) > have:
-                break                      # got something longer, no need for the fallback
-    return max(texts, key=len) if texts else ""
-
-
-def build_info(all_hits):
-    """Blurb, genres, publisher etc. from the best matching catalog record."""
-    if not all_hits:
-        return {}
-    ranked = sorted(all_hits, key=lambda h: 0 if h.get("type", {}).get("id") == "ebook" else 1)
-    best = next((h for h in ranked if any(h.get(k) for k in DESC_KEYS)), ranked[0])
-    subjects = []
-    for s in best.get("subjects") or []:
-        n = (s.get("name") if isinstance(s, dict) else str(s)) or ""
-        if n and n not in subjects:
-            subjects.append(n)
-    series = best.get("detailedSeries") or {}
-    return {
-        "description": full_description(best),
-        "genres": subjects[:8],
-        "publisher": (best.get("publisher") or {}).get("name", ""),
-        "published": (best.get("publishDate") or "")[:4],
-        "series": series.get("seriesName", "") if isinstance(series, dict) else "",
-    }
-
-
-# ---------- output ----------
-def notify(title, message):
-    if not NTFY_TOPIC:
-        print("[no NTFY_TOPIC set] would notify:", title, message)
-        return
-    req = urllib.request.Request(
-        f"https://ntfy.sh/{NTFY_TOPIC}", data=message.encode("utf-8"),
-        headers={"Title": title, "Tags": "books", "Click": "https://libbyapp.com"})
-    urllib.request.urlopen(req, timeout=20)
-
-
-def main():
-    if "--verify" in sys.argv:
-        resolve_libraries()
-        return
-    books = load_books()
-    libs_found = resolve_libraries()
-    if not libs_found:
-        sys.exit("None of the library addresses worked. Run with verify and fix LIBRARIES.")
-    old = json.loads(STATE_FILE.read_text()) if STATE_FILE.exists() else {}
-    first_run = not old
-    results, new_state, alerts = [], {}, []
-
-    for b in books:
-        bk = f'{norm(b["title"])}|{norm(b["author"])}'
-
-        def lookup(item, b=b, bk=bk):
-            label, key = item
-            try:
-                time.sleep(0.2)
-                return label, key, search_library(key, b)
-            except Exception as e:
-                print(f"{label}: error for {b['title']}: {e}")
-                return label, key, None
-
-        libs, all_hits = {}, []
-        with ThreadPoolExecutor(max_workers=len(libs_found)) as pool:
-            for label, key, hits in pool.map(lookup, libs_found.items()):
-                if hits is None:                       # lookup failed: keep last known result
-                    prev = old.get(bk, {}).get(label)
-                    if isinstance(prev, dict) and "ebook" in prev:
-                        libs[label] = prev
-                    continue
-                for h in hits:
-                    h["_lib"] = key
-                all_hits.extend(hits)
-                libs[label] = {k: summarize(hits, k, key) for k in KINDS}
-        new_state[bk] = libs
-
-        image = next((s["cover"] for l in libs.values() for s in l.values() if s.get("cover")), "")
-        results.append({
-            "id": hashlib.md5(bk.encode()).hexdigest()[:8],
-            "title": b["title"], "full_title": b["full_title"], "author": b["author"],
-            "added": b["added"], "pages": b["pages"], "rating": b["rating"],
-            "year": b["year"], "url": b["url"], "image": image,
-            "info": build_info(all_hits), "libs": libs,
-        })
-        for label, l in libs.items():
-            was = old.get(bk, {}).get(label, {}).get("ebook", {}).get("status")
-            if l["ebook"]["status"] == "available" and was != "available":
-                alerts.append(f'{b["title"]} (ebook) is available at {label}')
-
-    print(f"\n=== Summary: {len(results)} to-read books checked ===")
-    for label in libs_found:
-        for k in KINDS:
-            owned = sum(1 for r in results if r["libs"].get(label, {}).get(k, {}).get("status") in ("available", "wait"))
-            avail = sum(1 for r in results if r["libs"].get(label, {}).get(k, {}).get("status") == "available")
-            print(f"{label} {k}s: owns {owned}, available now {avail}")
-    STATE_FILE.write_text(json.dumps(new_state, indent=1))
-    DATA_FILE.parent.mkdir(exist_ok=True)
-    DATA_FILE.write_text(json.dumps(
-        {"updated": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "books": results},
-        indent=1), encoding="utf-8")
-    if first_run:
-        n = sum(any(l["ebook"]["status"] == "available" for l in r["libs"].values()) for r in results)
-        notify("Book checker is running", f"{n} of {len(results)} books have an ebook available right now.")
-    elif alerts:
-        notify("Library ebook available", "\n".join(alerts[:10]))
-    print("Alerts:", alerts)
-
-
-if __name__ == "__main__":
-    main()
+$("chips").addEventListener("click", e => { const k = e.target.dataset.k; if (k){ filter = k; render(); }});
+$("grid").addEventListener("click", e => { const c = e.target.closest(".card"); if (c){ scrollY0 = window.scrollY; location.hash = "b-" + c.dataset.id; }});
+$("detail").addEventListener("click", e => { if (e.target.id === "back"){ history.length > 1 ? history.back() : (location.hash = ""); }});
+["q","lib","sort","fmt"].forEach(id => $(id).addEventListener("input", () => {
+  if (id === "fmt") { try { localStorage.setItem("fmt", $("fmt").value); } catch (e) {} }
+  render();
+}));
+window.addEventListener("hashchange", route);
+init();
+</script>
+</body>
+</html>
