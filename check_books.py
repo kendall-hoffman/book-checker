@@ -122,6 +122,16 @@ def resolve_libraries():
     return found
 
 
+def is_english(item):
+    """English only. Records with no language listed are kept (can't tell)."""
+    langs = item.get("languages") or []
+    if not langs:
+        return True
+    return any((l.get("id") if isinstance(l, dict) else str(l)).lower().startswith("en")
+               or (l.get("name", "") if isinstance(l, dict) else "").lower() == "english"
+               for l in langs)
+
+
 def search_library(key, book):
     q = urllib.parse.urlencode({
         "query": f'{book["title"]} {book["author"]}',
@@ -133,6 +143,8 @@ def search_library(key, book):
     hits = []
     for it in data.get("items", []):
         if it.get("type", {}).get("id") not in KINDS:
+            continue
+        if not is_english(it):
             continue
         if norm(clean_title(it.get("title", ""))) == want_t and \
                 (not last or last in norm(it.get("firstCreatorName", ""))):
@@ -177,15 +189,34 @@ def summarize(hits, kind, key):
             "text": text, "matched": best.get("title", ""), "copies": copies(best)}
 
 
+DESC_KEYS = ("fullDescription", "description", "shortDescription")
+
+
+def full_description(hit):
+    """Search results often carry a shortened blurb, so also read the title's own record."""
+    texts = [plain(hit[k]) for k in DESC_KEYS if hit.get(k)]
+    have = max(map(len, texts), default=0)
+    key, rid = hit.get("_lib"), hit.get("id")
+    if key and rid:
+        for url in (f"{API}/{key}/media/{rid}?x-client-id=dewey",
+                    f"https://thunder.api.overdrive.com/v2/media/{rid}?x-client-id=dewey"):
+            try:
+                d = json.loads(get(url, tries=2))
+            except Exception:
+                continue
+            more = [plain(d[k]) for k in DESC_KEYS if d.get(k)]
+            texts += more
+            if max(map(len, more), default=0) > have:
+                break                      # got something longer, no need for the fallback
+    return max(texts, key=len) if texts else ""
+
+
 def build_info(all_hits):
     """Blurb, genres, publisher etc. from the best matching catalog record."""
-    best = None
-    for h in sorted(all_hits, key=lambda h: 0 if h.get("type", {}).get("id") == "ebook" else 1):
-        if h.get("fullDescription") or h.get("description"):
-            best = h
-            break
-    if not best:
+    if not all_hits:
         return {}
+    ranked = sorted(all_hits, key=lambda h: 0 if h.get("type", {}).get("id") == "ebook" else 1)
+    best = next((h for h in ranked if any(h.get(k) for k in DESC_KEYS)), ranked[0])
     subjects = []
     for s in best.get("subjects") or []:
         n = (s.get("name") if isinstance(s, dict) else str(s)) or ""
@@ -193,7 +224,7 @@ def build_info(all_hits):
             subjects.append(n)
     series = best.get("detailedSeries") or {}
     return {
-        "description": plain(best.get("fullDescription") or best.get("description")),
+        "description": full_description(best),
         "genres": subjects[:8],
         "publisher": (best.get("publisher") or {}).get("name", ""),
         "published": (best.get("publishDate") or "")[:4],
@@ -244,6 +275,8 @@ def main():
                     if isinstance(prev, dict) and "ebook" in prev:
                         libs[label] = prev
                     continue
+                for h in hits:
+                    h["_lib"] = key
                 all_hits.extend(hits)
                 libs[label] = {k: summarize(hits, k, key) for k in KINDS}
         new_state[bk] = libs
